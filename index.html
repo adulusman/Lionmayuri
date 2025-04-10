@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LION MAYURA Events - Premier Event Planning in Kochi | Wedding & Corporate Events</title>
+    <meta name="description"
+        content="LION MAYURA Events is Kochi's premier event planning company specializing in weddings, corporate events, and social gatherings with unmatched elegance and precision.">
+    <meta name="keywords"
+        content="event planning, wedding planner, corporate events, Kochi events, Lion Mayura, event management">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LION MAYURA Events - Crafting Memorable Moments">
+    <meta property="og:description"
+        content="Your trusted partner in elegant event planning, based in Kochi. We specialize in weddings, corporate events, and social gatherings.">
+    <meta property="og:image" content="lion_mayura_logo.png">
+    <meta property="og:url" content="https://lionmayura.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LION MAYURA Events - Crafting Memorable Moments">
+    <meta name="twitter:description" content="Your trusted partner in elegant event planning, based in Kochi.">
+    <meta name="twitter:image" content="lion_mayura_logo.png">
+
+    <!-- Canonical URL -->
+    <meta rel="canonical" href="https://lionmayura.com">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EventPlanningService",
+      "name": "LION MAYURA Events",
+      "image": "lion_mayura_logo.png",
+      "url": "https://lionmayura.com",
+      "telephone": "+919876543210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "MG Road",
+        "addressLocality": "Kochi",
+        "addressRegion": "Kerala",
+        "postalCode": "682011",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "9.9672",
+        "longitude": "76.2674"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/lionmayura",
+        "https://www.instagram.com/lionmayuraevents",
+        "https://twitter.com/lionmayura"
+      ]
+    }
+    </script>
+</head>
+
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white bg-opacity-90 backdrop-filter backdrop-blur-sm shadow-md z-50 py-4">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="lion_mayura_logo.png" alt="LION MAYURA Logo" class="h-10 w-auto mr-3">
+                <span class="text-2xl font-bold text-black">Lion <span class="text-gray-600">Mayura</span></span>
+            </div>
+            <div class="hidden md:flex space-x-10">
+                <a href="index.html" class="nav-item text-gray-800 hover:text-black">Home</a>
+                <a href="about.html" class="nav-item text-gray-800 hover:text-black">About Us</a>
+                <a href="services.html" class="nav-item text-gray-800 hover:text-black">Services</a>
+                <a href="gallery.html" class="nav-item text-gray-800 hover:text-black">Gallery</a>
+                <a href="contact.html" class="nav-item text-gray-800 hover:text-black">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden bg-white md:hidden w-full">
+            <div class="container mx-auto px-6 py-3 flex flex-col space-y-4">
+                <a href="index.html" class="text-gray-800 hover:text-black">Home</a>
+                <a href="about.html" class="text-gray-800 hover:text-black">About Us</a>
+                <a href="services.html" class="text-gray-800 hover:text-black">Services</a>
+                <a href="gallery.html" class="text-gray-800 hover:text-black">Gallery</a>
+                <a href="contact.html" class="text-gray-800 hover:text-black">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="hero-section relative flex items-center justify-center bg-cover bg-center"
+        style="background-image: url('home_bk_img.jpg');">
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 to-black opacity-60"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Crafting Memorable Moments with Passion &
+                Precision</h1>
+            <p class="text-xl md:text-2xl text-white mb-8">Welcome to LION MAYURA Events – Your trusted partner in
+                elegant event planning, based in Kochi.</p>
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
+                <a href="contact.html" class="btn-black px-8 py-3 rounded-full font-medium tracking-wide">Book a
+                    Consultation</a>
+                <a href="about.html" class="btn-outline-white px-8 py-3 rounded-full font-medium tracking-wide">Learn
+                    More</a>
+            </div>
+        </div>
+        <a href="#services" class="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+            <i class="fas fa-chevron-down text-3xl"></i>
+        </a>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Premier Services</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">We specialize in creating unforgettable experiences through
+                    meticulous planning and flawless execution. Discover how we can bring your vision to life.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Wedding Planning -->
+                <div class="service-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-56 bg-cover bg-center" style="background-image: url('wedding.jpg')">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-black text-white mb-4">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Wedding Planning</h3>
+                        <p class="text-gray-600 mb-4">From intimate ceremonies to grand celebrations, we craft weddings
+                            that reflect your unique love story.</p>
+                        <a href="services.html#weddings" class="text-black font-medium hover:underline">Learn more <i
+                                class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- Corporate Events -->
+                <div class="service-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-56 bg-cover bg-center" style="background-image: url('corporate.jpg')">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-black text-white mb-4">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Corporate Events</h3>
+                        <p class="text-gray-600 mb-4">Elevate your brand with impeccably executed corporate gatherings,
+                            conferences, and team-building experiences.</p>
+                        <a href="services.html#corporate" class="text-black font-medium hover:underline">Learn more <i
+                                class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- Social Gatherings -->
+                <div class="service-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="h-56 bg-cover bg-center" style="background-image: url('social_gatherings.jpg')">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-black text-white mb-4">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Social Gatherings</h3>
+                        <p class="text-gray-600 mb-4">Make your special moments truly memorable with our expertly
+                            curated birthday parties, anniversaries, and celebrations.</p>
+                        <a href="services.html#social" class="text-black font-medium hover:underline">Learn more <i
+                                class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="services.html"
+                    class="btn-outline-black inline-block px-8 py-3 rounded-full font-medium tracking-wide">View All
+                    Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Preview -->
+    <section id="about-preview" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="/api/placeholder/800/600" alt="About LION MAYURA Events" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Creating Extraordinary Experiences Since 2020</h2>
+                    <p class="text-gray-600 mb-6">At LION MAYURA Events, we believe that every celebration tells a
+                        unique story. With our blend of creativity, precision, and passion, we transform your vision
+                        into reality, creating moments that will be cherished for a lifetime.</p>
+                    <p class="text-gray-600 mb-8">Our team of experienced event professionals is dedicated to
+                        excellence, ensuring that every detail of your special day is meticulously planned and
+                        flawlessly executed.</p>
+                    <a href="about.html"
+                        class="btn-black inline-block px-8 py-3 rounded-full font-medium tracking-wide">Discover Our
+                        Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Client Testimonials</h2>
+                <p class="text-gray-300 max-w-3xl mx-auto">Don't just take our word for it. Hear what our clients have
+                    to say about their experience with LION MAYURA Events.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <div class="flex justify-center mb-6">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">"LION MAYURA Events made our wedding day truly magical. Their
+                        attention to detail and personalized approach exceeded our expectations. Our guests are still
+                        talking about how perfect everything was!"</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/60/60" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Priya & Arjun</h4>
+                            <p class="text-gray-400 text-sm">Wedding in Kochi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <div class="flex justify-center mb-6">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">"Our company's annual conference was a huge success thanks to the LION
+                        MAYURA team. Their professionalism and ability to handle unexpected challenges made the event
+                        run smoothly from start to finish."</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/60/60" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Rahul Sharma</h4>
+                            <p class="text-gray-400 text-sm">TechCorp India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <div class="flex justify-center mb-6">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">"For my daughter's 16th birthday, I wanted something special. LION
+                        MAYURA created an event that perfectly captured her personality. The team was responsive,
+                        creative, and a joy to work with."</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/60/60" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Lakshmi Nair</h4>
+                            <p class="text-gray-400 text-sm">Birthday Celebration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <span class="text-4xl md:text-5xl font-bold block mb-2" data-count="500">500+</span>
+                    <p class="text-gray-600">Events Organized</p>
+                </div>
+                <div>
+                    <span class="text-4xl md:text-5xl font-bold block mb-2" data-count="300">300+</span>
+                    <p class="text-gray-600">Happy Couples</p>
+                </div>
+                <div>
+                    <span class="text-4xl md:text-5xl font-bold block mb-2" data-count="100">100+</span>
+                    <p class="text-gray-600">Corporate Clients</p>
+                </div>
+                <div>
+                    <span class="text-4xl md:text-5xl font-bold block mb-2" data-count="5">5</span>
+                    <p class="text-gray-600">Years of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section id="gallery-preview" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Event Gallery</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Browse through some of our most memorable events and get
+                    inspired for your next celebration.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="/api/placeholder/600/400" alt="Wedding Event"
+                        class="gallery-img w-full h-64 object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="/api/placeholder/600/400" alt="Corporate Conference"
+                        class="gallery-img w-full h-64 object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="/api/placeholder/600/400" alt="Birthday Party"
+                        class="gallery-img w-full h-64 object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="/api/placeholder/600/400" alt="Gala Dinner" class="gallery-img w-full h-64 object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg md:col-span-2">
+                    <img src="/api/placeholder/1200/600" alt="Beach Wedding"
+                        class="gallery-img w-full h-64 object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="/api/placeholder/600/400" alt="Product Launch"
+                        class="gallery-img w-full h-64 object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="/api/placeholder/600/400" alt="Anniversary Celebration"
+                        class="gallery-img w-full h-64 object-cover">
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="gallery.html"
+                    class="btn-outline-black inline-block px-8 py-3 rounded-full font-medium tracking-wide">View Full
+                    Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Meet Our Team</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Our dedicated professionals bring creativity, expertise, and
+                    passion to every event we plan.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <!-- Team Member 1 -->
+                <div class="text-center">
+                    <div class="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden">
+                        <img src="/api/placeholder/300/300" alt="Team Member" class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="flex space-x-3">
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">Aarav Menon</h3>
+                    <p class="text-gray-600 mb-3">Founder & Creative Director</p>
+                    <p class="text-gray-500 text-sm">With over 15 years in luxury event planning, Aarav brings
+                        unparalleled creativity and vision to each project.</p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="text-center">
+                    <div class="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden">
+                        <img src="/api/placeholder/300/300" alt="Team Member" class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="flex space-x-3">
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">Meera Krishnan</h3>
+                    <p class="text-gray-600 mb-3">Senior Event Planner</p>
+                    <p class="text-gray-500 text-sm">Meera's attention to detail and warm approach have made her a
+                        favorite with our wedding and social event clients.</p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="text-center">
+                    <div class="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden">
+                        <img src="/api/placeholder/300/300" alt="Team Member" class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="flex space-x-3">
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">Vikram Pillai</h3>
+                    <p class="text-gray-600 mb-3">Corporate Events Specialist</p>
+                    <p class="text-gray-500 text-sm">Specializing in corporate gatherings, Vikram excels at creating
+                        professional yet engaging business events.</p>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="text-center">
+                    <div class="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden">
+                        <img src="/api/placeholder/300/300" alt="Team Member" class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <div class="flex space-x-3">
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-white hover:text-gray-200"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-1">Anjali Thomas</h3>
+                    <p class="text-gray-600 mb-3">Decor & Design Head</p>
+                    <p class="text-gray-500 text-sm">Anjali transforms spaces with her innovative design concepts and
+                        eye for aesthetic perfection.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="about.html#team"
+                    class="btn-outline-black inline-block px-8 py-3 rounded-full font-medium tracking-wide">Meet The
+                    Full Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Parallax -->
+    <section class="py-20 parallax bg-cover bg-center relative"
+        style="background-image: url('/api/placeholder/1920/1080')">
+        <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-3xl mx-auto text-center text-white">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Create Unforgettable Memories?</h2>
+                <p class="text-xl mb-8">Let us help you plan your next extraordinary event. Contact us today for a
+                    personalized consultation.</p>
+                <a href="contact.html"
+                    class="btn-black bg-white text-black px-8 py-3 rounded-full font-medium tracking-wide inline-block">Get
+                    Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section id="blog-preview" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Event Planning Insights</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Explore our blog for expert tips, trend updates, and
+                    inspiration for your next event.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Blog Post 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Blog Post" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500 block mb-2">March 15, 2025</span>
+                        <h3 class="text-xl font-bold mb-2">10 Wedding Trends to Watch in 2025</h3>
+                        <p class="text-gray-600 mb-4">Discover the latest trends shaping the wedding industry this year,
+                            from sustainable celebrations to tech-integrated ceremonies.</p>
+                        <a href="#" class="text-black font-medium hover:underline">Read more <i
+                                class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Blog Post" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500 block mb-2">February 28, 2025</span>
+                        <h3 class="text-xl font-bold mb-2">How to Choose the Perfect Venue for Your Event</h3>
+                        <p class="text-gray-600 mb-4">Finding the right venue is crucial for event success. Learn our
+                            expert tips for selecting a space that aligns with your vision.</p>
+                        <a href="#" class="text-black font-medium hover:underline">Read more <i
+                                class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Blog Post" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-gray-500 block mb-2">January 10, 2025</span>
+                        <h3 class="text-xl font-bold mb-2">Corporate Event ROI: Measuring Success Beyond Attendance</h3>
+                        <p class="text-gray-600 mb-4">Explore effective methods to evaluate the success of your
+                            corporate events and maximize return on investment.</p>
+                        <a href="#" class="text-black font-medium hover:underline">Read more <i
+                                class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="blog.html"
+                    class="btn-outline-black inline-block px-8 py-3 rounded-full font-medium tracking-wide">View All
+                    Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Preview -->
+    <section id="contact-preview" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Have questions or ready to start planning your event? Contact
+                    us today for a personalized consultation.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center shadow-xl rounded-lg overflow-hidden">
+                <div class="md:w-1/2 bg-gray-900 text-white p-12">
+                    <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+
+                    <div class="flex items-start mb-6">
+                        <div class="text-xl mr-4 mt-1">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Visit Our Office</h4>
+                            <p class="text-gray-300">MG Road, Kochi, Kerala 682011</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start mb-6">
+                        <div class="text-xl mr-4 mt-1">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Call Us</h4>
+                            <p class="text-gray-300">+91 98765 43210</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start mb-6">
+                        <div class="text-xl mr-4 mt-1">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Email Us</h4>
+                            <p class="text-gray-300">info@lionmayura.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-10">
+                        <h4 class="font-semibold mb-3">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-white hover:text-gray-300 text-xl"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-white hover:text-gray-300 text-xl"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-white hover:text-gray-300 text-xl"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white hover:text-gray-300 text-xl"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 bg-white p-12">
+                    <form>
+                        <div class="mb-6">
+                            <label for="name" class="block mb-2 font-medium text-gray-700">Full Name</label>
+                            <input type="text" id="name"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black">
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="email" class="block mb-2 font-medium text-gray-700">Email Address</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black">
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="phone" class="block mb-2 font-medium text-gray-700">Phone Number</label>
+                            <input type="tel" id="phone"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black">
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="event-type" class="block mb-2 font-medium text-gray-700">Event Type</label>
+                            <select id="event-type"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black">
+                                <option value="">Select Event Type</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="birthday">Birthday Party</option>
+                                <option value="anniversary">Anniversary</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="message" class="block mb-2 font-medium text-gray-700">Your Message</label>
+                            <textarea id="message" rows="4"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="btn-black w-full px-8 py-3 rounded-full font-medium tracking-wide">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <img src="/api/placeholder/40/40" alt="LION MAYURA Logo" class="h-10 w-auto mr-3">
+                        <span class="text-2xl font-bold">Lion <span class="text-gray-400">Mayura</span></span>
+                    </div>
+                    <p class="text-gray-400 mb-6">Creating extraordinary experiences with passion and precision. Your
+                        premier event planning partner in Kochi.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white">Gallery</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Our Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="services.html#weddings" class="text-gray-400 hover:text-white">Weddings</a></li>
+                        <li><a href="services.html#corporate" class="text-gray-400 hover:text-white">Corporate
+                                Events</a></li>
+                        <li><a href="services.html#social" class="text-gray-400 hover:text-white">Social Gatherings</a>
+                        </li>
+                        <li><a href="services.html#decor" class="text-gray-400 hover:text-white">Decor & Styling</a>
+                        </li>
+                        <li><a href="services.html#catering" class="text-gray-400 hover:text-white">Catering</a></li>
+                        <li><a href="services.html#entertainment"
+                                class="text-gray-400 hover:text-white">Entertainment</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact Us</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span class="text-gray-400">MG Road, Kochi, Kerala 682011</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone mt-1 mr-3"></i>
+                            <span class="text-gray-400">+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <span class="text-gray-400">info@lionmayura.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-clock mt-1 mr-3"></i>
+                            <span class="text-gray-400">Mon-Sat: 9:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="border-gray-800 my-10">
+
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; 2025 LION MAYURA Events. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="privacy-policy.html" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="text-gray-400 hover:text-white">Terms of Service</a>
+                    <a href="sitemap.html" class="text-gray-400 hover:text-white">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top"
+        class="fixed bottom-8 right-8 bg-black text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg hidden">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+
+        backToTopButton.addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Simple animation for counting stats
+        function animateStats() {
+            const stats = document.querySelectorAll('#stats [data-count]');
+
+            stats.forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-count'));
+                const duration = 2000; // 2 seconds
+                const increment = target / (duration / 16);
+                let current = 0;
+
+                const counter = setInterval(() => {
+                    current += increment;
+                    stat.textContent = Math.floor(current) + (target === 5 ? '' : '+');
+
+                    if (current >= target) {
+                        stat.textContent = target + (target === 5 ? '' : '+');
+                        clearInterval(counter);
+                    }
+                }, 16);
+            });
+        }
+
+        // Run stats animation when element is in viewport
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateStats();
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('#stats'));
+    </script>
+</body>
+
+</html>
