@@ -31,7 +31,7 @@ h3,
 
 /* Hero Section with Background Image */
 .hero-section {
-    background-image: url('/api/placeholder/1920/1080');
+    background-image: url('home_bk_img.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -112,3 +112,16 @@ h3,
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Style for active navigation item */
+.nav-item.active {
+    font-weight: 600;
+    color: #000;
+    border-bottom: 2px solid #000;
+    /* Or any color that matches your design */
+    padding-bottom: 4px;
+}
+
+
+
+
